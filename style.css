@@ -1,0 +1,28 @@
+html{
+box-sizing:border-box
+height border-boxcontent-box
+}
+
+
+
+
+*,
+
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: auto 0;
+    
+    
+}
+
+body{
+    align-items: center;
+    background:linear-gradient(320deg, #ac2769, #1d1b0c, #c7a9b8);
+    display: flex;
+    font-family: Dosis;
+   
+    
+
+}
