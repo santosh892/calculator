@@ -1,28 +1,95 @@
 html{
-box-sizing:border-box
-height border-boxcontent-box
+    box-sizing:border-box
+    height border-boxcontent-box
+    }
+    
+    
+    
+    
+    *,
+    
+    *::before,
+    *::after{
+        box-sizing: inherit;
+        margin: 0;
+        padding: auto 0;
+        
+        
+    }
+    
+    body{
+        align-items: center;
+        background:linear-gradient(320deg, #ac2769, #1d1b0c, #c7a9b8);
+        display: flex;
+        font-family: 'Dosis', sans-serif;
+        font-display: swap;
+        height:inherit;
+        justify-content: center;
+    
+    }
+    
+
+
+.screen{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background-color: rgba(255, 255, 255, 0.75);
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 16px;
+box-shadow:0 4px 38px rgba(255, 255, 255, 0.1);
+color: brown;
+font-size: 35px;
+overflow: auto;
+padding: 20px;
+text-align: right;
+width: 350px;
+
+
 }
 
 
+.wrapper{
 
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5
+    );
+    border-radius: 16px;
+    box-sizing: 5px;
+    box-shadow:0 4px 38px rgba(255, 255, 255, 0.1);
+    color: brown;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background-color: rgba(15, 15, 15, 0.30);
+    border: 1px solid rgba(19, 18, 18, 0.34);
+    
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+    }
 
-*,
-
-*::before,
-*::after{
-    box-sizing: inherit;
-    margin: 0;
-    padding: auto 0;
+    .calc-button-row{
+         display: flex;
+         justify-content: space-between;
+         margin: 5% 0;
+        
+            
+        }
+        
     
     
-}
-
-body{
-    align-items: center;
-    background:linear-gradient(320deg, #ac2769, #1d1b0c, #c7a9b8);
-    display: flex;
-    font-family: Dosis;
-   
+    .calc-button{
+        backdrop-filter: blur(5.5px);
+        -webkit-backdrop-filter: blur(5.5px);
+        background: rgba(255, 255, 255, 0.75);
+        border: 2px solid rgba(35, 35, 35, 0.1);
+        border-radius: 30px;
+        box-shadow: 5 5px 48px rgba(35, 35, 35, 0.1);
+        color: rgb(14, 15, 26);
+        flex-basis: 30%;
+        font-size: 28px;
+        font-family: inherit;
+        font-style: 45px;
+        height: 80px;
+        
     
-
-}
+    }
